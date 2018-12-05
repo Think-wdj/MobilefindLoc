@@ -21,4 +21,15 @@ public class MobileController {
 		Mobile mobile = mobileService.get(number);
 		return mobile;
 	}
+	
+	
+	
+	//myeclipse新增加的方法
+	@RequestMapping("/getaaa")
+	public String get(String number){
+		System.out.println("aaa");
+		return "index";
+	}
+	
+	
 }
