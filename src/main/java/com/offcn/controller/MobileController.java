@@ -31,6 +31,13 @@ public class MobileController {
 		return "index";
 	}
 	
+	//myeclipse新增加的方法2
+		@RequestMapping("/getbbb")
+		public String get2(String number){
+			System.out.println("bbb");
+			return "index";
+		}
+		
 	
 		//eclipse新增加的方法
 		@RequestMapping("/getccc")
