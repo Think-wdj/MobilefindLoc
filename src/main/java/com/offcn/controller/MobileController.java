@@ -35,13 +35,6 @@ public class MobileController {
 		@RequestMapping("/getbbb")
 		public String get2(String number){
 			System.out.println("bbb");
-			return "index";
-		}
-		
-	
-		//eclipse新增加的方法
-		@RequestMapping("/getccc")
-		public String get2(String number){
 			System.out.println("ccc");
 			return "index";
 		}
